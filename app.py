@@ -90,7 +90,7 @@ st.title("Create Knowledge Graphs from Cyber Incidents")
 
 text_input = st.text_area("Enter your text here", height=100)
 
-if text_input:
+if text_input or st.button('Apply'):
     output = model(text_input)
     st.subheader("Event Nuggets")
     annotate("nugget")
