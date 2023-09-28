@@ -4,3 +4,4 @@ st-annotated-text==4.0.0
 numpy==1.24.2
 joblib==1.2.0
 torch==2.0.0
+sentence-transformers==2.2.2
