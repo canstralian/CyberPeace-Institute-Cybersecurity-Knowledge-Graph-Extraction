@@ -2,7 +2,7 @@
 title: Cybersecurity Knowledge Graph Extraction
 emoji: 📈
 colorFrom: red
-colorTo: green
+colorTo: red
 sdk: streamlit
 sdk_version: 1.27.0
 app_file: app.py
